@@ -8,6 +8,8 @@ img
 }
 header
 {
+    margin: -10px;
+    margin-bottom: -16px;
     background-color: #161515;
 }
 .white
@@ -58,12 +60,15 @@ header
 }
 .logo
 {
-    position: relative;
-    top: 0px;
-    bottom: 0px;
+    height: 160px;
+}
+.logo figure
+{
+    position: absolute;
 }
 .s1
 {
+    margin: -12px;
     background-image:url("../image/grp.png"), url("../image/fondmain.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -84,7 +89,7 @@ header
 .groupe
 {
     position: relative;
-    bottom: 25px;
+    bottom: 10px;
     align-self: flex-end;
 }
 .bold
@@ -94,6 +99,7 @@ header
 }
 .s2
 {
+    margin: -10px;
     height: 45rem; 
     flex-direction: column;
     justify-content: center; 
@@ -104,10 +110,16 @@ header
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+} 
+.bi1
+{
+    position: absolute;
+    height: 320px;
 }
 .bi
 {
      position: relative;
+     margin-top: 105px;
 }
 .bi img
 {
@@ -126,6 +138,7 @@ header
 }
 footer
 {
+   margin: -10px;
    background-image: url("../image/fondfooter.png");
    background-size: cover;
 }
